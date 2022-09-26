@@ -25,11 +25,11 @@ alpha = 0.1
 no_of_pts = 10
 
 if __name__ == "__main__":
-    final_x, cost, x_star, store_x= gd(Q, b, c, x, alpha, verbose=3)
+    #final_x, cost, x_star, store_x= gd(Q, b, c, x, alpha, verbose=3)
     #final_x, cost, x_star, store_x= sd(Q, b, c, x, verbose=3)
-    #final_x, cost, x_star, store_x= sd_with_newtons_method(Q, b, c, x, verbose=3)
+    final_x, cost, x_star, store_x= sd_with_newtons_method(Q, b, c, x, verbose=3)
 
 
     # Draws 3D plot of descent
-    plot_descent(0,final_x, cost, x_star, store_x)
+    plot_descent(10,final_x, cost, x_star, store_x)
 
