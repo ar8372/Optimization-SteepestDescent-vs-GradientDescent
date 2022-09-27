@@ -1,3 +1,20 @@
+<img src="resources/1.gif"/>
+
+
+<img src="resources/2.gif"/>
+
+
+
+<img src="resources/3.gif"/>
+
+
+
+<img src="resources/4.gif"/>
+
+
+
+<img src="resources/5.gif"/>
+
 # Optimization-SteepestDescent vs GradientDescent
 <h3>Understand working of Steepest-Descent and Gradient-Descent methods</h3>
 <h4>We will work with Quadratic function. Because any higher dimension will be harder to plot and visualize.</h4>
@@ -20,6 +37,8 @@
 
 ## Different Approaches: 
  * Steepest Descent
+ 
+ 
  * Gradient Descent
 
 Below we will see demo of these:-
@@ -27,6 +46,7 @@ Below we will see demo of these:-
 ## 1.Steepest Descent: 
 <h4> a) Base problem </h4>
 <h6>Steepest Descent Method also known as <a href="https://en.wikipedia.org/wiki/Saddle_point" target="_blank">saddle</a> method. In this we move in a direction untill the cost function stops decreasing [i.e. ∇f(dx1)=0, where dx1 is that direction. Cost function may still decrease in other direction]. Then we pick another direction let say dx2. In this each next direction is perpendicular to last direction ( dx1 ⊥ dx2 ). The saddle points are point of contact to the <a href="https://en.wikipedia.org/wiki/Contour_line" target="_blank">contour line</a> where that direction is tangent.</h6>
+
 <img src="resources/1.gif"/>
 
 <h4> b) Steepest Descent with Newton's Method </h4>
