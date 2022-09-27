@@ -48,7 +48,7 @@ so in our problem 2/ λmax(Q) is 0.3771609692315777]
 <img src="resources/3.gif" width="400px" height="400px"/> <img src="resources/3.png" width="400px" height="400px"/>
 
 <h4> b) Gradient Descent with learning rate `0.3771609692315777 - 0.00002` </h4> 
-<h6>Since leanring rate is very close to 0.3771609692315777 it will converge after much oscillation, thus will take much iteration.<br>
+<h6>Since leanring rate is smaller but very close to 0.3771609692315777 it will converge after much oscillation, thus will take much more iterations.<br>
 #iterations: 163093</h6>
 
 <img src="resources/5.gif" width="400px" height="400px"/> <img src="resources/4.png" width="400px" height="400px"/>
