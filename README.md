@@ -54,7 +54,7 @@ so here `learning rate` < 0.3771609692315777]
 <img src="resources/5.gif" width="400px" height="400px"/> <img src="resources/4.png" width="400px" height="400px"/>
 
 <h4> c) Gradient Descent with learning rate `0.3771609692315777 + 0.00002` </h4> 
-<h6>Since leanring rate is larger than 0.3771609692315777 it will keep oscillation and will not converge ever.</h6>
+<h6>Since leanring rate is larger than 0.3771609692315777 it will keep oscillating and will never converge.</h6>
 
 <h2> Let us put everything in one table</h2> 
 
