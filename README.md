@@ -17,7 +17,6 @@
  Find point `x` s.t. `cost_func_f(x)` is minimum.
 
 <p></p>
-<img src="Images/x1_2.gif" />
 
 ## Different Approaches: 
  * Steepest Descent
@@ -28,12 +27,11 @@ Below we will see demo of these:-
 ## 1.Steepest Descent: 
 <h4> a) Base problem </h4>
 <h6>Steepest Descent Method also known as <a href="https://en.wikipedia.org/wiki/Saddle_point" target="_blank">saddle</a> method. In this we move in a direction untill the cost function stops decreasing [i.e. ∇f(dx1)=0, where dx1 is that direction. Cost function may still decrease in other direction]. Then we pick another direction let say dx2. In this each next direction is perpendicular to last direction ( dx1 ⊥ dx2 ). The saddle points are point of contact to the <a href="https://en.wikipedia.org/wiki/Contour_line" target="_blank">contour line</a> where that direction is tangent.</h6>
-
 <img src="resources/1.gif"/>
 
 <h4> b) Steepest Descent with Newton's Method </h4>
 <h6>The benefit of this grid approach over graph approach is that we can very easily put layers of information on top and our algorithm will work fine. Like here we have added traffic information on top of it.</h6>
-<img src="resources/2.gif" />
+<img src="resources/2.gif"/>
 
 Let's look at details of how it is working:-
 <img src="resources/5.gif" />
