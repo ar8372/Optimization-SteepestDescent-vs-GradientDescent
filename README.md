@@ -56,7 +56,7 @@ so in our problem 2/ λmax(Q) is 0.3771609692315777]
 <h4> c) Gradient Descent with learning rate `0.3771609692315777 + 0.00002` </h4> 
 <h6>Since leanring rate is larger than 0.3771609692315777 it will keep oscillating and will never converge.</h6>
 
-<h2> Let us put everything in one table</h2> 
+<h2> Let's put all our findings in one table</h2> 
 
 
 | no | algorithm  | #iterations  | 
