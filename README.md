@@ -42,7 +42,7 @@ We will work with Quadratic function. Because any higher dimension problem will 
 > In this learning rate or step size is a heuristic value. So we must be very carefull about what we choose as step size. A big step size may create problem and we may never converge to optimal point. [ In general `learning rate` < 2/ λmax (Hf(x)) , for quadratic cost Hf(x) is `Q`. <br>
 so here `learning rate` < 0.3771609692315777]
 <h4> a) Gradient Descent with learning rate `0.1` </h4> 
-<h6>Since leanring rate is much less than the 0.3771609692315777 it will converge nicely.<br>
+<h6>Since leanring rate is much less than the 0.3771609692315777, it will converge nicely.<br>
 #iterations: 86</h6>
 
 <img src="resources/3.gif" width="400px" height="400px"/> <img src="resources/3.png" width="400px" height="400px"/>
