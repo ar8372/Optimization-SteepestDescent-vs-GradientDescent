@@ -1,6 +1,6 @@
 # Optimization-SteepestDescent vs GradientDescent
-<h3>Understand working of Steepest-Descent and Gradient-Descent methods</h3>
-<h4>We will work with Quadratic function. Because any higher dimension problem will be harder to plot and visualize.</h4>
+> Understand working of Steepest-Descent and Gradient-Descent methods <br>
+We will work with Quadratic function. Because any higher dimension problem will be harder to plot and visualize.</h5>
 
 <h2>Problem Statement :-</h1>
 
