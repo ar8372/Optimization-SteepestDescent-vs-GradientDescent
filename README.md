@@ -31,26 +31,37 @@
 
 ## Different Approaches: 
  * Steepest Descent
- 
- 
  * Gradient Descent
 
 Below we will see demo of these:-
 
 ## 1.Steepest Descent: 
+> In this learning rate or step size is determined based on algorithm and is not a heuristic value.
+
 <h4> a) Base problem </h4>
 <h6>Steepest Descent Method also known as <a href="https://en.wikipedia.org/wiki/Saddle_point" target="_blank">saddle</a> method. In this we move in a direction untill the cost function stops decreasing [i.e. ∇f(dx1)=0, where dx1 is that direction. Cost function may still decrease in other direction]. Then we pick another direction let say dx2. In this each next direction is perpendicular to last direction ( dx1 ⊥ dx2 ). The saddle points are point of contact to the <a href="https://en.wikipedia.org/wiki/Contour_line" target="_blank">contour line</a> where that direction is tangent.</h6>
 
-<img src="resources/1.gif"/>
+<img src="resources/1.gif" width="400px" height="400px"/> <img src="resources/1.png" width="400px" height="400px"/>
 
 <h4> b) Steepest Descent with Newton's Method </h4>
-<h6>The benefit of this grid approach over graph approach is that we can very easily put layers of information on top and our algorithm will work fine. Like here we have added traffic information on top of it.</h6>
-<img src="resources/2.gif"/>
+<h6>In newton's method we approximate our cost function with a similar quadratic equation which behaves similar to our original function in some small neigbourhood. It then tries to find the optiamal pt of that quadratic function. It repeats this process untill stopping criteria is met.
+[Note: here since our original function is quadratic function itself so the approximation is same function and thus we reach it's optimal point in one iteration.]</h6>
 
-Let's look at details of how it is working:-
-<img src="resources/5.gif" />
+<img src="resources/2.gif" width="400px" height="400px"/> <img src="resources/2.png" width="400px" height="400px"/>
 
-## 2.Finding optimal Charging Stations location:
+## 2.Gradient Descent:
+> In this learning rate or step size is a heuristic value. So we must be very carefull about what we choose as step size. A big step size may create problem and we may never converge to optimal point. [ In general `learning rate` < 2/ λmax (Hf(x)) , for quadratic cost Hf(x) is `Q`. <br>
+so here `learning rate` < 0.3771609692315777]
+<h4> a) Gradient Descent with learning rate `0.1` </h4> 
+<h6>Since leanring rate is less than the 0.3771609692315777 it will converge nicely.</h6>
+
+<img src="resources/3.gif" width="400px" height="400px"/> <img src="resources/3.png" width="400px" height="400px"/>
+
+<h4> b) Gradient Descent with learning rate `0.3771609692315777 - 0.00002` </h4> 
+<h6>Since leanring rate is very close to 0.3771609692315777 it will converge after much oscillation, thus will take much iteration.</h6>
+
+<img src="resources/5.gif" width="400px" height="400px"/> <img src="resources/5.png" width="400px" height="400px"/>
+
 Finding the optimal location to set up a charging station is very tricky and we have to look at various factors, like where there is more demand and  which is geographically the most feasible location from all places.
 ### So to solve this we applied three approaches. 
  * a) Brute force approach
