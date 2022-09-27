@@ -4,15 +4,15 @@ We will work with Quadratic function. Because any higher dimension problem will 
 
 <h2>Problem Statement :-</h1>
 
-`Q = np.array([[5,1], [1, 2]])`
+ `cost_func_f(x) = (1/2)*x.T*Q*x + b.T*x + c` or `(5/2)* (X2**2)+(Y2**2)+X2*Y2-2*X2+3*Y2+10` where `x = [[X1], [Y1]]`
+ 
+ `Q = np.array([[5,1], [1, 2]])`
 
 `b = np.array([[-2], [3]])`
 
 `c = 10`
 
 `x = np.array([[10], [10]])`
-
- `cost_func_f(x) = (1/2)*x.T*Q*x + b.T*x + c` or `(5/2)* (X2**2)+(Y2**2)+X2*Y2-2*X2+3*Y2+10` where `x = [[X1], [Y1]]`
  
  Find point `x` s.t. `cost_func_f(x)` is minimum.
 
