@@ -1,19 +1,13 @@
-<img src="resources/1.gif"/>
+<img src="resources/1.gif" width="500px" height="500px"/> <img src="resources/1.png" width="500px" height="500px"/>
 
 
-<img src="resources/2.gif"/>
+<img src="resources/2.gif" width="500px" height="500px"/> <img src="resources/2.png" width="500px" height="500px"/>
+
+<img src="resources/4.gif" width="500px" height="500px"/> <img src="resources/3.png" width="500px" height="500px"/>
+
+<img src="resources/5.gif" width="500px" height="500px"/> <img src="resources/4.png" width="500px" height="500px"/>
 
 
-
-<img src="resources/3.gif"/>
-
-
-
-<img src="resources/4.gif"/>
-
-
-
-<img src="resources/5.gif"/>
 
 # Optimization-SteepestDescent vs GradientDescent
 <h3>Understand working of Steepest-Descent and Gradient-Descent methods</h3>
